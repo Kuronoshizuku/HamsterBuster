@@ -1998,10 +1998,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1829247922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c232ecb2a5329454f978392f5dde32f4, type: 3}
+  m_Script: {fileID: 11500000, guid: 93331e01d7b9e1c46bab727d3863e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scoretext: {fileID: 0}
+  Scoretext: {fileID: 2070798228}
   score: 0
 --- !u!114 &1829247924
 MonoBehaviour:
