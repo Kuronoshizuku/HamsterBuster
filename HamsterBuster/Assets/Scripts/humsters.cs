@@ -39,13 +39,13 @@ public class humsters : MonoBehaviour
 			Appearhumster();
 		}
 	}
-		//　敵出現メソッド
-		void Appearhumster()
+	//　敵出現メソッド
+	void Appearhumster()
 	{
 		//　出現させる敵をランダムに選ぶ
 		var randomValue = Random.Range(0, humster.Length);
 		//　敵の向きをランダムに決定
-		var RotationZ= 90f;
+		var RotationZ = 90f;
 
 		GameObject.Instantiate(humster[randomValue], transform.position, Quaternion.Euler(0f, RotationZ, 0f));
 
