@@ -1409,6 +1409,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Biru (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 45338505286809540, guid: f5525fbb8492bf8479a129060bc97dfd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2559,6 +2564,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Biru
+      objectReference: {fileID: 0}
+    - target: {fileID: 45338505286809540, guid: f5525fbb8492bf8479a129060bc97dfd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
