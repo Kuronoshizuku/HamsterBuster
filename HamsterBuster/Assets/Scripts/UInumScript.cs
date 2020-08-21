@@ -29,7 +29,7 @@ public class UInumScript : MonoBehaviour
         int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
         humsterNum.text = (counthum.ToString() + "匹");
 
-        int countheight = (GameObject.FindGameObjectsWithTag("building").Length + 2);  //1段の高さを3mにしたいので+2してみた
+        int countheight = (GameObject.FindGameObjectsWithTag("building").Length * 3);  //1段の高さを3mにしたいので*3してみた
         CurrentHeight.text = (countheight.ToString() + "m");
 
     }
