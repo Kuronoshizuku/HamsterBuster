@@ -7,13 +7,11 @@ public class HumsterSpawnerScript : MonoBehaviour
 {
 	private CharacterController enemyController;
 	private Animator animator;
-
-	[SerializeField]
-	public GameObject walking_angry_Humster;
-	[SerializeField] 
-	public int count = 0;
-	[SerializeField] 
+	public GameObject walking_angry_HumsterPrefab;
+	public int count = 0; 
 	public int max = 10;    //上限
+	//public staticをつけた変数を取得
+	int currenthum = UInumScript.currenthum;
 
 	private Vector3 destination; //　目的地
 	public Transform targetobject;
@@ -32,25 +30,31 @@ public class HumsterSpawnerScript : MonoBehaviour
 		enemyController = GetComponent<CharacterController>();
 		animator = GetComponent<Animator>();
 
-		InvokeRepeating("Generate", 1, 1);
-
-		/*
-		var randDestination = Random.insideUnitCircle * 5;  //半径5ｍ以内にランダムに目的地をつくる
-		destination = startPosition + new Vector3(randDestination.x, 0, randDestination.y);
-		*/
-
 		velocity = Vector3.zero;
 		arrived = false;
 		startPosition = new Vector3(0, 0, 18);
+
+		InvokeRepeating("Generate", 1, 1); // 1秒ごとに繰り返す
 	}
 
 	void Generate()
     {
-		float x = Random.Range(0f, 9f);
-		float y = 0;
-		float z = Random.Range(0f, 9f);
-		Vector3 position = new Vector3(x, y, z);
-		Instantiate(walking_angry_Humster, new Vector3.Zero);
+		if (currenthum < max)
+		{
+			//randomな位置
+			float x = Random.Range(0.0f, 0.0f);
+			float y = Random.Range(0.0f, 0.0f);
+			float z = Random.Range(0.0f, 6.0f);
+
+			//humをインスタンス化する(生成する)
+			GameObject hum = Instantiate(
+				walking_angry_HumsterPrefab,
+				new Vector3(x, y, z),
+				Quaternion.identity
+				);
+			//生成した敵の座標を決定する(startposition位置に出力)
+			hum.transform.position = startPosition;
+		}
 	}
 
 	// Update is called once per frame
