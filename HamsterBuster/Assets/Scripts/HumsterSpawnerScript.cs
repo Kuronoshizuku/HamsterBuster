@@ -5,17 +5,16 @@ using UnityEngine;
 
 public class HumsterSpawnerScript : MonoBehaviour
 {
-	private CharacterController enemyController;
-	private Animator animator;
+	public GameObject humsterparents;
+	public CharacterController enemyController;
+	public Animator animator;
 	public GameObject walking_angry_HumsterPrefab;
 	public int count = 0; 
 	public int max = 10;    //上限
-	//public staticをつけた変数を取得
-	int currenthum = UInumScript.currenthum;
 
 	private Vector3 destination; //　目的地
 	public Transform targetobject;
-	
+	public GameObject hum;
 
 	[SerializeField]
 	public float walkSpeed = 1.0f; //　歩くスピード
@@ -24,63 +23,42 @@ public class HumsterSpawnerScript : MonoBehaviour
 	private bool arrived;//　到着フラグ
 	private Vector3 startPosition; //　スタート位置
 
-	// Start is called before the first frame update
-	void Start()
+    private void Start()
     {
-		enemyController = GetComponent<CharacterController>();
-		animator = GetComponent<Animator>();
-
-		velocity = Vector3.zero;
-		arrived = false;
-		startPosition = new Vector3(0, 0, 18);
-
 		InvokeRepeating("Generate", 1, 1); // 1秒ごとに繰り返す
 	}
 
-	void Generate()
-    {
-		if (currenthum < max)
-		{
-			//randomな位置
-			float x = Random.Range(0.0f, 0.0f);
-			float y = Random.Range(0.0f, 0.0f);
-			float z = Random.Range(0.0f, 6.0f);
 
-			//humをインスタンス化する(生成する)
-			GameObject hum = Instantiate(
+    // Update is called once per frame
+    /*	void Update()
+        {
+            //InvokeRepeating("Generate", 1, 1); // 1秒ごとに繰り返す
+        }
+    */
+
+    private void Generate()
+	{
+		startPosition = new Vector3(0, 0, 18);
+		//public staticをつけた変数を取得
+		//int i = UInumScript.counthum;
+
+		for (int i = UInumScript.counthum; i < 10; i++)
+			{
+				//humをインスタンス化する(生成する)
+				GameObject hum = Instantiate(
 				walking_angry_HumsterPrefab,
-				new Vector3(x, y, z),
+				startPosition,
 				Quaternion.identity
 				);
-			//生成した敵の座標を決定する(startposition位置に出力)
-			hum.transform.position = startPosition;
-		}
+
+				//生成したオブジェクトの親設定
+				hum.transform.parent = humsterparents.transform;
+
+			}
+			// 別のオブジェクト(hum)のスクリプトを参照する場合
+
+			//hum.GetComponent<McontrollhumScript>().humC();
+
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-		if (!arrived)
-		{
-			if (enemyController.isGrounded)
-			{
-				velocity = Vector3.zero;
-				animator.SetFloat("Speed", 2.0f);
-				direction = (destination - transform.position).normalized;//目的地方向の計算
-				transform.LookAt(new Vector3(destination.x, transform.position.y, destination.z));//キャラを目的地の方向に向かせる
-				velocity = direction * walkSpeed;
-				Debug.Log(destination);
-			}
-			velocity.y += Physics.gravity.y * Time.deltaTime;
-			enemyController.Move(velocity * Time.deltaTime);
-
-			//　目的地に到着したかどうかの判定
-			if (Vector3.Distance(transform.position, destination) < 0.5f)
-			{
-				arrived = true;
-				animator.SetFloat("Speed", 0.0f);
-				transform.LookAt(targetobject);
-			}
-		}
-	}
 }
