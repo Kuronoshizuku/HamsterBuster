@@ -26,7 +26,8 @@ public class shiikuinnController : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.Space)) //spaceボタンを推すとnageanimを再生
 		{
-			Debug.Log("space");
+			nageruflg = true;
+			//Debug.Log(nageruflg);
 			nagemotion();
 		}
 		else
@@ -39,11 +40,10 @@ public class shiikuinnController : MonoBehaviour
 
 	public void nagemotion()
 	{
-		if (nageruflg)
+		if (nageruflg == true)
 		{
 			// idleからnageruに遷移する
 			nageanim.SetBool("nageru", true);
-			nageruflg = true;
 		}
 	}
 }
