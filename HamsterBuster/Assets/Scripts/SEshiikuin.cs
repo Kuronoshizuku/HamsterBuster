@@ -20,7 +20,7 @@ public class SEshiikuin : MonoBehaviour
         //space
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Spacekey");
+            //Debug.Log("Spacekey");
             audioSource.PlayOneShot(shootsound);
         }
     }

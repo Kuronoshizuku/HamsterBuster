@@ -8,6 +8,7 @@ TagManager:
   - humster
   - Wall
   - building
+  - Ground
   layers:
   - Default
   - TransparentFX

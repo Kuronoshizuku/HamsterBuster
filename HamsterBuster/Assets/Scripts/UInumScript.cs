@@ -11,7 +11,8 @@ public class UInumScript : MonoBehaviour
     public Text humsterNum;
     public Text CurrentHeight;
     public int CurrentHeight_num = 0;
-    public static int counthum;
+    public int counthum;
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,8 +30,9 @@ public class UInumScript : MonoBehaviour
         int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
         humsterNum.text = (counthum.ToString() + "匹");
 
-        int countheight = (GameObject.FindGameObjectsWithTag("building").Length * 3);  //1段の高さを3mにしたいので*3してみた
+    int countheight = (GameObject.FindGameObjectsWithTag("building").Length * 3);  //1段の高さを3mにしたいので*3してみた
         CurrentHeight.text = (countheight.ToString() + "m");
 
     }
+
 }

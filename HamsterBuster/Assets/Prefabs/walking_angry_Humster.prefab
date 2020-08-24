@@ -660,7 +660,6 @@ GameObject:
   - component: {fileID: 697661668667458747}
   - component: {fileID: 4374516430287391471}
   - component: {fileID: 6813087771637826829}
-  - component: {fileID: 3681991000417410928}
   - component: {fileID: 4016279178302797045}
   - component: {fileID: -248886285784381185}
   m_Layer: 0
@@ -763,18 +762,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.4, z: 0}
---- !u!114 &3681991000417410928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6367055990517702454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff8e7f21e0ded0c449677d2c46a983fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4016279178302797045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,14 +788,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c456199eb7a7a3c448eec0f8730d100e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  humsterparents: {fileID: 0}
   enemyController: {fileID: 6813087771637826829}
   animator: {fileID: 4374516430287391471}
   walking_angry_HumsterPrefab: {fileID: 6367055990517702454}
   count: 0
   max: 10
   targetobject: {fileID: 0}
-  walkSpeed: 1
+  walkSpeed: 3
 --- !u!1 &6577576649560537257
 GameObject:
   m_ObjectHideFlags: 0

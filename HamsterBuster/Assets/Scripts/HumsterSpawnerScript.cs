@@ -9,12 +9,13 @@ public class HumsterSpawnerScript : MonoBehaviour
 	public CharacterController enemyController;
 	public Animator animator;
 	public GameObject walking_angry_HumsterPrefab;
-	public int count = 0; 
-	public int max = 10;    //上限
+	public int max;    //上限
 
 	private Vector3 destination; //　目的地
 	public Transform targetobject;
 	public GameObject hum;
+	int counthum;
+
 
 	[SerializeField]
 	public float walkSpeed = 1.0f; //　歩くスピード
@@ -25,9 +26,21 @@ public class HumsterSpawnerScript : MonoBehaviour
 
     private void Start()
     {
-		InvokeRepeating("Generate", 1, 1); // 1秒ごとに繰り返す
+
+		int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
+		if (counthum < 10)
+		{
+			StartCoroutine(timer());
+		}
 	}
 
+    IEnumerator timer()
+    {
+		yield return new WaitForSeconds(3);
+
+		Generate();
+
+	}
 
     // Update is called once per frame
     /*	void Update()
@@ -42,7 +55,7 @@ public class HumsterSpawnerScript : MonoBehaviour
 		//public staticをつけた変数を取得
 		//int i = UInumScript.counthum;
 
-		for (int i = UInumScript.counthum; i < 10; i++)
+		for (int i = counthum; i < 1; i++)
 			{
 				//humをインスタンス化する(生成する)
 				GameObject hum = Instantiate(
@@ -55,9 +68,8 @@ public class HumsterSpawnerScript : MonoBehaviour
 				hum.transform.parent = humsterparents.transform;
 
 			}
-			// 別のオブジェクト(hum)のスクリプトを参照する場合
 
-			//hum.GetComponent<McontrollhumScript>().humC();
+		Start();
 
 	}
 
