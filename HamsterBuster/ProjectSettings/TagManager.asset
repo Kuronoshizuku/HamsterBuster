@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - seed
+  - humster
+  - Wall
+  - building
+  - Ground
   layers:
   - Default
   - TransparentFX
