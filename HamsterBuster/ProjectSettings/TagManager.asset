@@ -6,6 +6,7 @@ TagManager:
   tags:
   - seed
   - humster
+  - enemy
   layers:
   - Default
   - TransparentFX

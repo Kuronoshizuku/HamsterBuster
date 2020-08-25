@@ -4,14 +4,34 @@ using UnityEngine;
 
 public class changehumster : MonoBehaviour
 {
-    public GameObject[] angly_HumsterPrefab;
-    public GameObject[] Happy_HumsterPrefab;
-    
-    void OnOnCollisionEnter(Collision other)
+    Material[] Prefabs;
+
+
+    // Use this for initialization
+    void Start()
     {
-        if (other.gameObject.tag == "seed")
-        {
-            GetComponent<Prefab>().GameObject.angly_HumsterPrefab= GameObject.Happy_HumsterPrefab;
-        }
+
+        //Resourcesフォルダからマテリアルを読み込む
+        Prefabs = Resources.LoadAll<Material>("Prefabs/");
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        //"humster"タグが付いているオブジェクトのマテリアルを変更する
+        if (collision.gameObject.tag == "humster")
+        {
+            //オブジェクトのマテリアルを変更する
+            gameObject.GetComponent<Renderer>().material = Prefabs[0];
+            collision.gameObject.GetComponent<Renderer>().material = Prefabs[1];
+            collision.gameObject.GetComponent<Renderer>().material = Prefabs[2];
+        }
+
+    }
+
 }

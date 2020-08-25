@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 1161460414}
   m_Layer: 0
   m_Name: Happy_Humster
-  m_TagString: Untagged
+  m_TagString: humster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
