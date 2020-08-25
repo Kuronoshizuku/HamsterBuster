@@ -79,7 +79,6 @@ GameObject:
   - component: {fileID: 10847360}
   - component: {fileID: 1053997979756482857}
   - component: {fileID: 3244252573042426331}
-  - component: {fileID: 10847362}
   m_Layer: 0
   m_Name: angry_Humster
   m_TagString: Untagged
@@ -190,6 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8e7f21e0ded0c449677d2c46a983fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Seed: {fileID: 0}
 --- !u!114 &1053997979756482857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,20 +222,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.4, z: 0}
---- !u!114 &10847362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241178121205167410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6680fd21e4427f41b0a17848adf37ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetobject: {fileID: 0}
-  walkSpeed: 2
 --- !u!1 &1388985881329494178
 GameObject:
   m_ObjectHideFlags: 0
