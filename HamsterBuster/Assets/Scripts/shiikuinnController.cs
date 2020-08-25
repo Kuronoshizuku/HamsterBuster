@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class shiikuinnController : MonoBehaviour
 {
-	Animator nageanim;
+	public Animator nageanim;
 	//ここわからない↓
 	bool nageruflg = false;
 

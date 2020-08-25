@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
-public class GameSysten : MonoBehaviour
+public class GameSysten : UnityEngine.MonoBehaviour
 {
 
-  //スタートボタンを押したら実行する
-  public void StartGame() {
+    //スタートボタンを押したら実行する
+    public void StartGame()
+    {
         SceneManager.LoadScene("Game");
     }
+
 }
+

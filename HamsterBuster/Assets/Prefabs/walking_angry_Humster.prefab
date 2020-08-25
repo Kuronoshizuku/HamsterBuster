@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 4374516430287391471}
   - component: {fileID: 6813087771637826829}
   - component: {fileID: 4016279178302797045}
-  - component: {fileID: -248886285784381185}
+  - component: {fileID: 7921587776036715960}
   m_Layer: 0
   m_Name: walking_angry_Humster
   m_TagString: humster
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scoretext: {fileID: 0}
   score: 0
---- !u!114 &-248886285784381185
+--- !u!114 &7921587776036715960
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

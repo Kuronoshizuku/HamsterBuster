@@ -5,7 +5,8 @@ using UnityEngine;
 public class SEshiikuin : MonoBehaviour
 {
     public AudioClip shootsound;
-    AudioSource audioSource;
+    public AudioSource audioSource;
+    
 
     // Start is called before the first frame update
     void Start()
