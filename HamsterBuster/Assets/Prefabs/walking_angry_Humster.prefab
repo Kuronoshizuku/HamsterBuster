@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &539599268039702476
+--- !u!1 &100717625216880743
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,60 +8,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8335130207723554255}
+  - component: {fileID: 894498384899583200}
   m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:l_hand
+  m_Name: HumsterModel_rigging_0004:spine01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8335130207723554255
+--- !u!4 &894498384899583200
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539599268039702476}
-  m_LocalRotation: {x: 0.35763848, y: -0.60999566, z: -0.2860626, w: 0.64665926}
-  m_LocalPosition: {x: -0.066476054, y: -1.3877787e-17, z: 3.291793e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8609095867581641384}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &698698714838838967
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5749810297979936880}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:r_heel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5749810297979936880
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698698714838838967}
-  m_LocalRotation: {x: 0.53391415, y: 0.46361163, z: -0.46361157, w: 0.5339142}
-  m_LocalPosition: {x: 0.0465092, y: 0.0000000035898602, z: 7.565065e-17}
+  m_GameObject: {fileID: 100717625216880743}
+  m_LocalRotation: {x: 0, y: 0, z: -0.8481288, w: 0.5297901}
+  m_LocalPosition: {x: 0.06703549, y: 0.14605753, z: -0.12991412}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5860097491961869932}
-  m_Father: {fileID: 7850165429514336614}
-  m_RootOrder: 0
+  - {fileID: 4289713785462053576}
+  m_Father: {fileID: 1052506702174348030}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1533223995783317994
+--- !u!1 &1497140436820821970
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69,7 +39,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 669941800228079068}
+  - component: {fileID: 6176907536852669497}
   m_Layer: 0
   m_Name: HumsterModel_rigging_0004:r_hand
   m_TagString: Untagged
@@ -77,21 +47,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &669941800228079068
+--- !u!4 &6176907536852669497
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533223995783317994}
+  m_GameObject: {fileID: 1497140436820821970}
   m_LocalRotation: {x: 0.35763848, y: -0.60999566, z: -0.2860626, w: 0.64665926}
   m_LocalPosition: {x: 0.066475905, y: 0.000000113546584, z: 3.3306688e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2395101670007981325}
+  m_Father: {fileID: 5175520124101075529}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1943556966266442811
+--- !u!1 &1996345843178734164
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,30 +69,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8609095867581641384}
+  - component: {fileID: 2777533113023939519}
   m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:l_arm
+  m_Name: HumsterModel_rigging_0004:l_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8609095867581641384
+--- !u!4 &2777533113023939519
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943556966266442811}
-  m_LocalRotation: {x: 0, y: 0, z: 0.6151123, w: 0.7884395}
-  m_LocalPosition: {x: -0.021082245, y: -0.25791508, z: -0.13252234}
+  m_GameObject: {fileID: 1996345843178734164}
+  m_LocalRotation: {x: -0.04971141, y: -0.7053572, z: -0.04971141, w: 0.7053572}
+  m_LocalPosition: {x: -0.08026328, y: -2.081668e-17, z: 1.1428368e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8335130207723554255}
-  m_Father: {fileID: 5924480076608966583}
+  m_Children: []
+  m_Father: {fileID: 3751968560297046321}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2099860613173278220
+--- !u!1 &2000359906067013835
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,9 +99,137 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1762363187854200682}
-  - component: {fileID: 5744647454681750833}
-  - component: {fileID: 6514208419557202199}
+  - component: {fileID: 4289713785462053576}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:spine02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4289713785462053576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000359906067013835}
+  m_LocalRotation: {x: -0.7055685, y: 0.046616785, z: 0.046616584, w: 0.7055685}
+  m_LocalPosition: {x: -0.081391074, y: 0.000000006362257, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4102076260355167471}
+  - {fileID: 1895904588002737720}
+  - {fileID: 5175520124101075529}
+  m_Father: {fileID: 894498384899583200}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3257046279019099674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1895904588002737720}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1895904588002737720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3257046279019099674}
+  m_LocalRotation: {x: 0.6434754, y: -0.29315427, z: 0.20594716, w: 0.67645085}
+  m_LocalPosition: {x: -0.19159508, y: 0, z: -3.215148e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6630353949229044751}
+  - {fileID: 2129982219060867952}
+  - {fileID: 2356469672520054340}
+  m_Father: {fileID: 4289713785462053576}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3511045614105517385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6630353949229044751}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:l_ear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6630353949229044751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3511045614105517385}
+  m_LocalRotation: {x: 0, y: 0, z: 0.16871203, w: 0.9856654}
+  m_LocalPosition: {x: -0.30210516, y: -4.4408918e-17, z: 4.9108046e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4488309170781966595}
+  m_Father: {fileID: 1895904588002737720}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3887873480615590833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4252830079969056224}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:l_leg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4252830079969056224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887873480615590833}
+  m_LocalRotation: {x: 0.17419423, y: -0.2788636, z: 0.5003337, w: 0.8009729}
+  m_LocalPosition: {x: -0.11195087, y: -4.205291e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3751968560297046321}
+  m_Father: {fileID: 1052506702174348030}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4088335489329420749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8397152876324301886}
+  - component: {fileID: 5795989650604397073}
+  - component: {fileID: 5175957693942227585}
   m_Layer: 0
   m_Name: HumsterModel_rigging_0004:pPlane5
   m_TagString: Untagged
@@ -140,35 +237,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1762363187854200682
+--- !u!4 &8397152876324301886
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099860613173278220}
+  m_GameObject: {fileID: 4088335489329420749}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0.67832446, z: 0.22890066}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7735912732077710154}
+  m_Father: {fileID: 2188639049841218462}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5744647454681750833
+--- !u!33 &5795989650604397073
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099860613173278220}
+  m_GameObject: {fileID: 4088335489329420749}
   m_Mesh: {fileID: -2450009534945792598, guid: acf881cd10f894d4f906718c3c7c01e5, type: 3}
---- !u!23 &6514208419557202199
+--- !u!23 &5175957693942227585
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099860613173278220}
+  m_GameObject: {fileID: 4088335489329420749}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -201,7 +298,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &2276932512996886894
+--- !u!1 &4298257937004445923
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,400 +306,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5390266720804041333}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:hip
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5390266720804041333
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2276932512996886894}
-  m_LocalRotation: {x: 0, y: 0, z: 0.22509956, w: 0.9743358}
-  m_LocalPosition: {x: -0, y: 0.11799876, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 443502086476626715}
-  - {fileID: 7850165429514336614}
-  - {fileID: 1230705996056713208}
-  m_Father: {fileID: 7735912732077710154}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2488928407257465801
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2341138164196709371}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:r_eartop
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2341138164196709371
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2488928407257465801}
-  m_LocalRotation: {x: 0.000000010284995, y: -0.0000000022893623, z: -0.21727483,
-    w: 0.97611046}
-  m_LocalPosition: {x: 0.11538163, y: -0.0000003017383, z: 4.4408918e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 883488562262297602}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3680886456585598118
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5367776113531261204}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:nose
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5367776113531261204
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3680886456585598118}
-  m_LocalRotation: {x: -0.47115308, y: 0.5272711, z: 0.08361357, w: 0.7021459}
-  m_LocalPosition: {x: -0.07844742, y: 0.0692241, z: 0.30872092}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1343979656093960497}
-  m_Father: {fileID: 4905188355124840676}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4752539591487929855
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6229189033307367379}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:l_heel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6229189033307367379
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4752539591487929855}
-  m_LocalRotation: {x: 0.5339141, y: 0.4636116, z: -0.46361157, w: 0.53391415}
-  m_LocalPosition: {x: -0.046509184, y: -7.329002e-17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2558711159890241369}
-  m_Father: {fileID: 443502086476626715}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5741447109005327568
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4905188355124840676}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:neck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4905188355124840676
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5741447109005327568}
-  m_LocalRotation: {x: 0.6434754, y: -0.29315427, z: 0.20594716, w: 0.67645085}
-  m_LocalPosition: {x: -0.19159508, y: 0, z: -3.215148e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3168233393114906091}
-  - {fileID: 5367776113531261204}
-  - {fileID: 883488562262297602}
-  m_Father: {fileID: 5924480076608966583}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5914395803637952381
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1343979656093960497}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:nosetop
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1343979656093960497
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5914395803637952381}
-  m_LocalRotation: {x: 0.4966647, y: -0.5033132, z: -0.11825241, w: 0.69714874}
-  m_LocalPosition: {x: -0.023034165, y: 1.5265565e-17, z: 9.7945106e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5367776113531261204}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6207522214034532637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5924480076608966583}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:spine02
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5924480076608966583
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6207522214034532637}
-  m_LocalRotation: {x: -0.7055685, y: 0.046616785, z: 0.046616584, w: 0.7055685}
-  m_LocalPosition: {x: -0.081391074, y: 0.000000006362257, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8609095867581641384}
-  - {fileID: 4905188355124840676}
-  - {fileID: 2395101670007981325}
-  m_Father: {fileID: 1230705996056713208}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6442928756748403660
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2395101670007981325}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:r_arm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2395101670007981325
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6442928756748403660}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7884395, w: 0.6151123}
-  m_LocalPosition: {x: -0.021082139, y: -0.25791535, z: 0.13252224}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 669941800228079068}
-  m_Father: {fileID: 5924480076608966583}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6701394162698103129
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7735912732077710154}
-  - component: {fileID: 3324166054844854358}
-  - component: {fileID: 3324166054844854357}
-  - component: {fileID: 7597282706671981909}
-  m_Layer: 0
-  m_Name: walking_angry_Humster
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7735912732077710154
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701394162698103129}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.3, y: 0.6, z: 31.6}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_Children:
-  - {fileID: 5390266720804041333}
-  - {fileID: 4579668009432447356}
-  - {fileID: 1762363187854200682}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!23 &3324166054844854358
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701394162698103129}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!95 &3324166054844854357
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701394162698103129}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0781bf4068cd27c4282342f4ff0ef2a2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!136 &7597282706671981909
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701394162698103129}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.2971611
-  m_Height: 0.9047394
-  m_Direction: 1
-  m_Center: {x: -0, y: 0.4271319, z: -0.06501198}
---- !u!1 &6881225199584933065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 443502086476626715}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:l_leg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &443502086476626715
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6881225199584933065}
-  m_LocalRotation: {x: 0.17419423, y: -0.2788636, z: 0.5003337, w: 0.8009729}
-  m_LocalPosition: {x: -0.11195087, y: -4.205291e-17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6229189033307367379}
-  m_Father: {fileID: 5390266720804041333}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7057680904009437104
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4579668009432447356}
-  - component: {fileID: 4735870431979054097}
+  - component: {fileID: 236755546667203366}
+  - component: {fileID: 6470312742388586666}
   m_Layer: 0
   m_Name: HumsterModel_rigging_0004:pCylinder11
   m_TagString: Untagged
@@ -610,27 +315,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4579668009432447356
+--- !u!4 &236755546667203366
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7057680904009437104}
+  m_GameObject: {fileID: 4298257937004445923}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7735912732077710154}
+  m_Father: {fileID: 2188639049841218462}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &4735870431979054097
+--- !u!137 &6470312742388586666
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7057680904009437104}
+  m_GameObject: {fileID: 4298257937004445923}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -669,33 +374,33 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 3592744803878383826, guid: acf881cd10f894d4f906718c3c7c01e5, type: 3}
   m_Bones:
-  - {fileID: 5390266720804041333}
-  - {fileID: 443502086476626715}
-  - {fileID: 6229189033307367379}
-  - {fileID: 2558711159890241369}
-  - {fileID: 1230705996056713208}
-  - {fileID: 5924480076608966583}
-  - {fileID: 4905188355124840676}
-  - {fileID: 3168233393114906091}
-  - {fileID: 7218827049567064799}
-  - {fileID: 5367776113531261204}
-  - {fileID: 1343979656093960497}
-  - {fileID: 883488562262297602}
-  - {fileID: 2341138164196709371}
-  - {fileID: 8609095867581641384}
-  - {fileID: 8335130207723554255}
-  - {fileID: 2395101670007981325}
-  - {fileID: 669941800228079068}
-  - {fileID: 7850165429514336614}
-  - {fileID: 5749810297979936880}
-  - {fileID: 5860097491961869932}
+  - {fileID: 1052506702174348030}
+  - {fileID: 4252830079969056224}
+  - {fileID: 3751968560297046321}
+  - {fileID: 2777533113023939519}
+  - {fileID: 894498384899583200}
+  - {fileID: 4289713785462053576}
+  - {fileID: 1895904588002737720}
+  - {fileID: 6630353949229044751}
+  - {fileID: 4488309170781966595}
+  - {fileID: 2129982219060867952}
+  - {fileID: 3011314376586440386}
+  - {fileID: 2356469672520054340}
+  - {fileID: 1074939835787253850}
+  - {fileID: 4102076260355167471}
+  - {fileID: 7119835721047155527}
+  - {fileID: 5175520124101075529}
+  - {fileID: 6176907536852669497}
+  - {fileID: 6803317198481341499}
+  - {fileID: 8308859208164589019}
+  - {fileID: 2586690943332624631}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 5390266720804041333}
+  m_RootBone: {fileID: 1052506702174348030}
   m_AABB:
     m_Center: {x: 0.19786474, y: 0.34077668, z: -0.07253599}
     m_Extent: {x: 0.43215534, y: 0.5203165, z: 0.30948377}
   m_DirtyAABB: 0
---- !u!1 &7688778301742605954
+--- !u!1 &4340407991713856972
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -703,30 +408,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1230705996056713208}
+  - component: {fileID: 2129982219060867952}
   m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:spine01
+  m_Name: HumsterModel_rigging_0004:nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1230705996056713208
+--- !u!4 &2129982219060867952
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7688778301742605954}
-  m_LocalRotation: {x: 0, y: 0, z: -0.8481288, w: 0.5297901}
-  m_LocalPosition: {x: 0.06703549, y: 0.14605753, z: -0.12991412}
+  m_GameObject: {fileID: 4340407991713856972}
+  m_LocalRotation: {x: -0.47115308, y: 0.5272711, z: 0.08361357, w: 0.7021459}
+  m_LocalPosition: {x: -0.07844742, y: 0.0692241, z: 0.30872092}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5924480076608966583}
-  m_Father: {fileID: 5390266720804041333}
-  m_RootOrder: 2
+  - {fileID: 3011314376586440386}
+  m_Father: {fileID: 1895904588002737720}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8018715716590308982
+--- !u!1 &4399775145906201509
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -734,7 +439,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5860097491961869932}
+  - component: {fileID: 2586690943332624631}
   m_Layer: 0
   m_Name: HumsterModel_rigging_0004:r_foot
   m_TagString: Untagged
@@ -742,21 +447,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5860097491961869932
+--- !u!4 &2586690943332624631
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8018715716590308982}
+  m_GameObject: {fileID: 4399775145906201509}
   m_LocalRotation: {x: -0.04971141, y: -0.7053572, z: -0.04971141, w: 0.7053572}
   m_LocalPosition: {x: 0.08026329, y: -0.000000005469987, z: -3.330669e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 5749810297979936880}
+  m_Father: {fileID: 8308859208164589019}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8158813707778224269
+--- !u!1 &4477356772117459376
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -764,121 +469,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2558711159890241369}
+  - component: {fileID: 5175520124101075529}
   m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:l_foot
+  m_Name: HumsterModel_rigging_0004:r_arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2558711159890241369
+--- !u!4 &5175520124101075529
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8158813707778224269}
-  m_LocalRotation: {x: -0.04971141, y: -0.7053572, z: -0.04971141, w: 0.7053572}
-  m_LocalPosition: {x: -0.08026328, y: -2.081668e-17, z: 1.1428368e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6229189033307367379}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8865468812071900030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3168233393114906091}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:l_ear
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3168233393114906091
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8865468812071900030}
-  m_LocalRotation: {x: 0, y: 0, z: 0.16871203, w: 0.9856654}
-  m_LocalPosition: {x: -0.30210516, y: -4.4408918e-17, z: 4.9108046e-18}
+  m_GameObject: {fileID: 4477356772117459376}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7884395, w: 0.6151123}
+  m_LocalPosition: {x: -0.021082139, y: -0.25791535, z: 0.13252224}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7218827049567064799}
-  m_Father: {fileID: 4905188355124840676}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9014319980952686533
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7218827049567064799}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:l_eartop
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7218827049567064799
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9014319980952686533}
-  m_LocalRotation: {x: 0, y: -0, z: -0.21727483, w: 0.97611046}
-  m_LocalPosition: {x: -0.11538135, y: 0, z: 5.9935596e-18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3168233393114906091}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9134235381821163098
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883488562262297602}
-  m_Layer: 0
-  m_Name: HumsterModel_rigging_0004:r_ear
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &883488562262297602
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9134235381821163098}
-  m_LocalRotation: {x: 0.77867025, y: 0.62743336, z: -3.8419214e-17, w: -4.7679802e-17}
-  m_LocalPosition: {x: -0.037591625, y: 0.29975688, z: -0.00000009283953}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2341138164196709371}
-  m_Father: {fileID: 4905188355124840676}
+  - {fileID: 6176907536852669497}
+  m_Father: {fileID: 4289713785462053576}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9145577917991518684
+--- !u!1 &4732929939364673911
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -886,7 +500,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7850165429514336614}
+  - component: {fileID: 6803317198481341499}
   m_Layer: 0
   m_Name: HumsterModel_rigging_0004:r_leg
   m_TagString: Untagged
@@ -894,18 +508,443 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7850165429514336614
+--- !u!4 &6803317198481341499
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9145577917991518684}
+  m_GameObject: {fileID: 4732929939364673911}
   m_LocalRotation: {x: -0.5154316, y: 0.82514274, z: -0.122506246, w: -0.19611748}
   m_LocalPosition: {x: 0.06887008, y: -0.08826047, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5749810297979936880}
-  m_Father: {fileID: 5390266720804041333}
+  - {fileID: 8308859208164589019}
+  m_Father: {fileID: 1052506702174348030}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5505353063271057550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4102076260355167471}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:l_arm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4102076260355167471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5505353063271057550}
+  m_LocalRotation: {x: 0, y: 0, z: 0.6151123, w: 0.7884395}
+  m_LocalPosition: {x: -0.021082245, y: -0.25791508, z: -0.13252234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7119835721047155527}
+  m_Father: {fileID: 4289713785462053576}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5746901265463672698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3751968560297046321}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:l_heel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3751968560297046321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5746901265463672698}
+  m_LocalRotation: {x: 0.5339141, y: 0.4636116, z: -0.46361157, w: 0.53391415}
+  m_LocalPosition: {x: -0.046509184, y: -7.329002e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2777533113023939519}
+  m_Father: {fileID: 4252830079969056224}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6067532770305704767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3011314376586440386}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:nosetop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3011314376586440386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6067532770305704767}
+  m_LocalRotation: {x: 0.4966647, y: -0.5033132, z: -0.11825241, w: 0.69714874}
+  m_LocalPosition: {x: -0.023034165, y: 1.5265565e-17, z: 9.7945106e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2129982219060867952}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6237816940970169288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1052506702174348030}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:hip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1052506702174348030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6237816940970169288}
+  m_LocalRotation: {x: 0, y: 0, z: 0.22509956, w: 0.9743358}
+  m_LocalPosition: {x: -0, y: 0.11799876, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4252830079969056224}
+  - {fileID: 6803317198481341499}
+  - {fileID: 894498384899583200}
+  m_Father: {fileID: 2188639049841218462}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6367055990517702454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2188639049841218462}
+  - component: {fileID: 697661668667458747}
+  - component: {fileID: 4374516430287391471}
+  - component: {fileID: 6813087771637826829}
+  - component: {fileID: 4016279178302797045}
+  - component: {fileID: -248886285784381185}
+  m_Layer: 0
+  m_Name: walking_angry_Humster
+  m_TagString: humster
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2188639049841218462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367055990517702454}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -1.1, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 1052506702174348030}
+  - {fileID: 236755546667203366}
+  - {fileID: 8397152876324301886}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!23 &697661668667458747
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367055990517702454}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &4374516430287391471
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367055990517702454}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 514bfd32a336a764f8e18381293832d5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!143 &6813087771637826829
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367055990517702454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1
+  m_Radius: 0.3
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.4, z: 0}
+--- !u!114 &4016279178302797045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367055990517702454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93331e01d7b9e1c46bab727d3863e167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scoretext: {fileID: 0}
+  score: 0
+--- !u!114 &-248886285784381185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367055990517702454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c456199eb7a7a3c448eec0f8730d100e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyController: {fileID: 6813087771637826829}
+  animator: {fileID: 4374516430287391471}
+  walking_angry_HumsterPrefab: {fileID: 6367055990517702454}
+  count: 0
+  max: 10
+  targetobject: {fileID: 0}
+  walkSpeed: 3
+--- !u!1 &6577576649560537257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4488309170781966595}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:l_eartop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4488309170781966595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6577576649560537257}
+  m_LocalRotation: {x: 0, y: -0, z: -0.21727483, w: 0.97611046}
+  m_LocalPosition: {x: -0.11538135, y: 0, z: 5.9935596e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6630353949229044751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7106940234419537927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1074939835787253850}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:r_eartop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1074939835787253850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7106940234419537927}
+  m_LocalRotation: {x: 0.000000010284995, y: -0.0000000022893623, z: -0.21727483,
+    w: 0.97611046}
+  m_LocalPosition: {x: 0.11538163, y: -0.0000003017383, z: 4.4408918e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2356469672520054340}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8765817043918049706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8308859208164589019}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:r_heel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8308859208164589019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8765817043918049706}
+  m_LocalRotation: {x: 0.53391415, y: 0.46361163, z: -0.46361157, w: 0.5339142}
+  m_LocalPosition: {x: 0.0465092, y: 0.0000000035898602, z: 7.565065e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2586690943332624631}
+  m_Father: {fileID: 6803317198481341499}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9120026947625236518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2356469672520054340}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:r_ear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2356469672520054340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9120026947625236518}
+  m_LocalRotation: {x: 0.77867025, y: 0.62743336, z: -3.8419214e-17, w: -4.7679802e-17}
+  m_LocalPosition: {x: -0.037591625, y: 0.29975688, z: -0.00000009283953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1074939835787253850}
+  m_Father: {fileID: 1895904588002737720}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9195999034378211875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7119835721047155527}
+  m_Layer: 0
+  m_Name: HumsterModel_rigging_0004:l_hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7119835721047155527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9195999034378211875}
+  m_LocalRotation: {x: 0.35763848, y: -0.60999566, z: -0.2860626, w: 0.64665926}
+  m_LocalPosition: {x: -0.066476054, y: -1.3877787e-17, z: 3.291793e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4102076260355167471}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
