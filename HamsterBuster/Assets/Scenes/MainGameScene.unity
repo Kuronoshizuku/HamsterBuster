@@ -121,6 +121,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 --- !u!1 &10847358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1241178121205167410, guid: 5a1f72a02f243794d8af634fa5ca149c,
@@ -294,8 +299,12 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
   m_GameObject: {fileID: 68973710}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 --- !u!1001 &116022402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -346,7 +355,15 @@ PrefabInstance:
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: 5
+=======
+<<<<<<< HEAD
+      value: 8
+=======
+      value: 5
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
@@ -833,9 +850,26 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &659158919
+=======
+<<<<<<< HEAD
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -0.75200003, y: 3.9290001, z: -1.023}
+--- !u!4 &596920906 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+    type: 3}
+  m_PrefabInstance: {fileID: 7329685234386343758}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> e2
+--- !u!1 &705507993
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1005,7 +1039,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
   m_RootOrder: 4
+=======
+<<<<<<< HEAD
+  m_RootOrder: 2
+=======
+  m_RootOrder: 4
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &777018486
 PrefabInstance:
@@ -1057,7 +1099,15 @@ PrefabInstance:
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: 9
+=======
+<<<<<<< HEAD
+      value: 10
+=======
+      value: 8
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
@@ -1378,7 +1428,15 @@ PrefabInstance:
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: 10
+=======
+<<<<<<< HEAD
+      value: 11
+=======
+      value: 9
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
@@ -1452,7 +1510,15 @@ PrefabInstance:
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: 3
+=======
+<<<<<<< HEAD
+      value: 7
+=======
+      value: 3
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
@@ -1471,6 +1537,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5525fbb8492bf8479a129060bc97dfd, type: 3}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
+=======
+<<<<<<< HEAD
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 --- !u!1 &1287107000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,6 +1669,7 @@ MonoBehaviour:
   VerticalSpeed: 90
   HorizontalSpeed: 90
   Unity: {fileID: 0}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
 --- !u!1 &1447663955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,6 +1814,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465359985}
   m_CullTransparentMesh: 0
+=======
+=======
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 --- !u!1001 &1478543991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1812,6 +1886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a1f72a02f243794d8af634fa5ca149c, type: 3}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
 --- !u!1 &1553661321
 GameObject:
   m_ObjectHideFlags: 0
@@ -1893,6 +1968,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 --- !u!1001 &1747369829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1950,7 +2028,15 @@ PrefabInstance:
     - target: {fileID: 6901596116029861689, guid: b97faacacf28f8e4f8f0ad35b96cf243,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: 1
+=======
+<<<<<<< HEAD
+      value: 5
+=======
+      value: 1
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 6901596116029861689, guid: b97faacacf28f8e4f8f0ad35b96cf243,
         type: 3}
@@ -1974,6 +2060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b97faacacf28f8e4f8f0ad35b96cf243, type: 3}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
 --- !u!1 &1829247922
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,6 +2307,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 --- !u!1001 &2065047314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2270,7 +2359,15 @@ PrefabInstance:
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: 7
+=======
+<<<<<<< HEAD
+      value: 9
+=======
+      value: 7
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
@@ -2289,6 +2386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5525fbb8492bf8479a129060bc97dfd, type: 3}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
 --- !u!1 &2070798227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,6 +2467,10 @@ RectTransform:
   m_AnchoredPosition: {x: 490, y: 324}
   m_SizeDelta: {x: 250, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 --- !u!1001 &1899433476364658291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2438,6 +2540,178 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 448e9452b0f27444bbe351c6ad50461a, type: 3}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
+=======
+--- !u!1001 &3692090543421036510
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.72303826
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6908081
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -92.61201
+      objectReference: {fileID: 0}
+    - target: {fileID: 312036954193070926, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3607324117091481949, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_Name
+      value: SunFlowerSeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975116012220025057, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fa5a9f4ef0279ae4cb32f9e7f4df5802, type: 3}
+--- !u!1001 &7329685234386343758
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 184808849322109774, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: VerticalSpeed
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 184808849322109774, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: HorizontalSpeed
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1207025869437188141, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_Name
+      value: shiikuin_nage
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.73854345
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6742059
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 95.215004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2781938669275335230, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186958289415301999, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186958289415301999, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_Drag
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186958289415301999, guid: 3dad6165b883f314ebdcd329216bf404,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3dad6165b883f314ebdcd329216bf404, type: 3}
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
 --- !u!1001 &7547038495673575470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2484,7 +2758,15 @@ PrefabInstance:
     - target: {fileID: 4389157639463256710, guid: 7a0ed257a6953284c8a1537d3a867d9d,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: -1.45
+=======
+<<<<<<< HEAD
+      value: -0.6
+=======
+      value: -0.91
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4389157639463256710, guid: 7a0ed257a6953284c8a1537d3a867d9d,
         type: 3}
@@ -2519,7 +2801,15 @@ PrefabInstance:
     - target: {fileID: 4389157639463256710, guid: 7a0ed257a6953284c8a1537d3a867d9d,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: 11
+=======
+<<<<<<< HEAD
+      value: 12
+=======
+      value: 10
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4389157639463256710, guid: 7a0ed257a6953284c8a1537d3a867d9d,
         type: 3}
@@ -2608,7 +2898,15 @@ PrefabInstance:
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/MainGameScene.unity
       value: 2
+=======
+<<<<<<< HEAD
+      value: 6
+=======
+      value: 2
+>>>>>>> e2
+>>>>>>> 1e40cc57c1b8a414ecc4dd797a20c4c19bc0dc0c:HamsterBuster/Assets/Scenes/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2201686997942159752, guid: f5525fbb8492bf8479a129060bc97dfd,
         type: 3}
