@@ -660,7 +660,8 @@ GameObject:
   - component: {fileID: 697661668667458747}
   - component: {fileID: 4374516430287391471}
   - component: {fileID: 6813087771637826829}
-  - component: {fileID: 7921587776036715960}
+  - component: {fileID: 4016279178302797045}
+  - component: {fileID: -248886285784381185}
   m_Layer: 0
   m_Name: walking_angry_Humster
   m_TagString: humster
@@ -761,7 +762,21 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.4, z: 0}
---- !u!114 &7921587776036715960
+--- !u!114 &4016279178302797045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6367055990517702454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93331e01d7b9e1c46bab727d3863e167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scoretext: {fileID: 0}
+  score: 0
+--- !u!114 &-248886285784381185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
