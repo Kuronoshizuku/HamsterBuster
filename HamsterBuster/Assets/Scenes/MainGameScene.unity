@@ -127,6 +127,9 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1478543991}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/SampleScene.unity
+--- !u!1 &109906879 stripped
+=======
 --- !u!114 &10847359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +145,7 @@ MonoBehaviour:
   Scoretext: {fileID: 2070798228}
   score: 0
 --- !u!1 &66927213
+>>>>>>> master:HamsterBuster/Assets/Scenes/MainGameScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -380,7 +384,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 370658076}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD:HamsterBuster/Assets/Scenes/SampleScene.unity
+  m_Script: {fileID: 11500000, guid: ccbd1826c34a18341abe8af43bfd9d0e, type: 3}
+=======
   m_Script: {fileID: 11500000, guid: ff29700285720af45bc7aed9bd176347, type: 3}
+>>>>>>> master:HamsterBuster/Assets/Scenes/MainGameScene.unity
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &370658080
@@ -404,7 +412,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370658076}
   m_BodyType: 1
-  m_Simulated: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 1
   m_Mass: 1
