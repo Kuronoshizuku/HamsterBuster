@@ -75,13 +75,23 @@ GameObject:
   - component: {fileID: 2838065135434417953}
   - component: {fileID: 7068507345017413531}
   - component: {fileID: 7068507345017413529}
+<<<<<<< HEAD
+  - component: {fileID: 7136116841828859299}
+  - component: {fileID: 10847360}
+  - component: {fileID: 10847359}
+=======
   - component: {fileID: 10847359}
   - component: {fileID: 10847360}
   - component: {fileID: 1053997979756482857}
   - component: {fileID: 3244252573042426331}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 10847362}
+>>>>>>> master
+>>>>>>> e2
   m_Layer: 0
   m_Name: angry_Humster
-  m_TagString: Untagged
+  m_TagString: humster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,6 +171,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
+--- !u!136 &7136116841828859299
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241178121205167410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.31485176
+  m_Height: 0.90405524
+  m_Direction: 1
+  m_Center: {x: -0, y: 0.45427245, z: -0.036190987}
+--- !u!114 &10847360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241178121205167410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8e7f21e0ded0c449677d2c46a983fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
+>>>>>>> master
 --- !u!54 &10847359
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -177,6 +216,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 106
   m_CollisionDetection: 0
+<<<<<<< HEAD
+=======
 --- !u!114 &10847360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +263,24 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.4, z: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &10847362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241178121205167410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6680fd21e4427f41b0a17848adf37ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetobject: {fileID: 0}
+  walkSpeed: 2
+>>>>>>> master
+>>>>>>> e2
 --- !u!1 &1388985881329494178
 GameObject:
   m_ObjectHideFlags: 0
