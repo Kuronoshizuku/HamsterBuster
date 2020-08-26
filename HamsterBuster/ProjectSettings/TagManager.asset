@@ -6,9 +6,13 @@ TagManager:
   tags:
   - seed
   - humster
+<<<<<<< HEAD
+  - enemy
+=======
   - Wall
   - building
   - Ground
+>>>>>>> master
   layers:
   - Default
   - TransparentFX

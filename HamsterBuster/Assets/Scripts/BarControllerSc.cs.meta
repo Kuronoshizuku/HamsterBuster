@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:HamsterBuster/Assets/Scripts/changehumster.cs.meta
+guid: ccbd1826c34a18341abe8af43bfd9d0e
+=======
 guid: 1ec87e816e34ffe4f98b28ce2c892a28
+>>>>>>> master:HamsterBuster/Assets/Scripts/BarControllerSc.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

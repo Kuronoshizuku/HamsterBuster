@@ -8,8 +8,6 @@ public class UInumScript : MonoBehaviour
 {
     GameObject[] humster;
 
-    public Text Scoretext;
-    public static int score = 0; //スコア変数
     public Text humsterNum;
     public Text CurrentHeight;
     public int CurrentHeight_num = 0;
@@ -34,9 +32,6 @@ public class UInumScript : MonoBehaviour
 
     int countheight = (GameObject.FindGameObjectsWithTag("building").Length * 3);  //1段の高さを3mにしたいので*3してみた
         CurrentHeight.text = (countheight.ToString() + "m");
-
-        //テキストの表示を入れ替える
-        Scoretext.text = score.ToString();
 
     }
 
