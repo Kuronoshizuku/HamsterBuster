@@ -1,27 +1,28 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 // みくみ
 
 public class seedDestroyer : MonoBehaviour
 {
-    public GameObject Seed;
-    GameObject humster;
+    public GameObject scoreGUI;
 
-    private void Start()
+    void OnCollisionEnter(Collision other)
     {
-        Seed = GameObject.Find("seed");
-        humster = GameObject.Find("humster");
-    }
+        Debug.Log("接触 + other.gameObject.name");
 
-
-    void OnTriggerEnter(Collider collision)
-    {
-        Debug.Log("接触 + collision.gameObject.name");
-
-        if (collision.gameObject.tag == "humster")
+        if (other.gameObject.tag == "humster")
         {
-            Destroy(collision.gameObject);
-            Destroy(this.gameObject);
+            Destroy(other.gameObject,0.2f);
+            Destroy(gameObject,0.2f);
+
+            UInumScript.score += 150;
+
+
+        }
+        if(other.gameObject.tag == "Ground")
+        {
+            Destroy(gameObject,0.2f);
         }
     }
 }
