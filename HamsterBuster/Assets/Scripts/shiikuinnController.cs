@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 //書いた人 みくみ
 
 public class shiikuinnController : MonoBehaviour
 {
+	public AudioClip dieSE;
+	public AudioSource audioSource;
 	public Animator nageanim;
 	//ここわからない↓
 	bool nageruflg = false;
@@ -17,7 +21,16 @@ public class shiikuinnController : MonoBehaviour
 		nageanim = this.gameObject.GetComponent<Animator>();
 		/* このスクリプトが張り付けられているオブジェクトのコンポーネントから
 		animationコンポーネントを取得 */
+		//getConponent
+		audioSource = GetComponent<AudioSource>();
 
+	}
+
+	IEnumerator gameover()
+	{
+		audioSource.PlayOneShot(dieSE);
+		yield return new WaitForSeconds(10);
+		SceneManager.LoadScene("GameOverScene");
 	}
 
 	// Update is called once per frame
@@ -52,6 +65,8 @@ public class shiikuinnController : MonoBehaviour
 		if (ground.gameObject.CompareTag("Ground"))
 		{
 			nageanim.SetTrigger("Die");
+
+			StartCoroutine(gameover());
 		}
 	}
 }
