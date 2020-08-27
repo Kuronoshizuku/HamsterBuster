@@ -13,7 +13,7 @@ public class shiikuinnController : MonoBehaviour
 
 	// Use this for initialization
 	void Start()
-	{
+    {
 		nageanim = this.gameObject.GetComponent<Animator>();
 		/* このスクリプトが張り付けられているオブジェクトのコンポーネントから
 		animationコンポーネントを取得 */
@@ -46,5 +46,12 @@ public class shiikuinnController : MonoBehaviour
 			nageanim.SetBool("nageru", true);
 		}
 	}
-}
 
+	void OnCollisionEnter(Collision ground)
+	{
+		if (ground.gameObject.CompareTag("Ground"))
+		{
+			nageanim.SetTrigger("Die");
+		}
+	}
+}
