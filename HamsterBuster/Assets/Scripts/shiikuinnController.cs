@@ -7,8 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class shiikuinnController : MonoBehaviour
 {
-	public AudioClip dieSE;
-	public AudioSource audioSource;
+
 	public Animator nageanim;
 	//ここわからない↓
 	bool nageruflg = false;
@@ -21,14 +20,11 @@ public class shiikuinnController : MonoBehaviour
 		nageanim = this.gameObject.GetComponent<Animator>();
 		/* このスクリプトが張り付けられているオブジェクトのコンポーネントから
 		animationコンポーネントを取得 */
-		//getConponent
-		audioSource = GetComponent<AudioSource>();
 
 	}
 
 	IEnumerator gameover()
 	{
-		audioSource.PlayOneShot(dieSE);
 		yield return new WaitForSeconds(10);
 		SceneManager.LoadScene("GameOverScene");
 	}

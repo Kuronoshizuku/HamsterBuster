@@ -5,8 +5,9 @@ using UnityEngine;
 public class SEshiikuin : MonoBehaviour
 {
     public AudioClip shootsound;
+    public AudioClip fallsound;
     public AudioSource audioSource;
-    
+    public GameObject Building;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,15 @@ public class SEshiikuin : MonoBehaviour
         {
             //Debug.Log("Spacekey");
             audioSource.PlayOneShot(shootsound);
+        }
+    }
+
+    void OnCollisionExit(Collision building)
+    {
+        if (building.gameObject == Building)
+        {
+            Debug.Log("falling");
+            audioSource.PlayOneShot(fallsound);
         }
     }
 }
