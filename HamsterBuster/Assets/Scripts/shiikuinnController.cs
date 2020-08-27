@@ -25,7 +25,7 @@ public class shiikuinnController : MonoBehaviour
 
 	IEnumerator gameover()
 	{
-		yield return new WaitForSeconds(10);
+		yield return new WaitForSeconds(3);
 		SceneManager.LoadScene("GameOverScene");
 	}
 

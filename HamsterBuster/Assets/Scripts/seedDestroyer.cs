@@ -16,7 +16,7 @@ public class seedDestroyer : MonoBehaviour
             Destroy(other.gameObject,0.2f);
             Destroy(gameObject,0.2f);
 
-            UInumScript.score += 150;
+            UInumScript.score += 1;
 
 
         }

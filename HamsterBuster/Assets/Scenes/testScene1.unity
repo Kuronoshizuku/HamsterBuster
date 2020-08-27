@@ -1967,12 +1967,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1356254323 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-    type: 3}
-  m_PrefabInstance: {fileID: 2099746175}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1360642081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 45338505286809540, guid: f5525fbb8492bf8479a129060bc97dfd,
@@ -2525,7 +2519,7 @@ GameObject:
   - component: {fileID: 2003559449}
   m_Layer: 0
   m_Name: Humsterparents
-  m_TagString: humster
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2540,8 +2534,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.4420197, y: 1.0220673, z: 17.943335}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1356254323}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2625,81 +2618,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2065047314}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2099746175
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2003559449}
-    m_Modifications:
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188639049841218462, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6367055990517702454, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: m_Name
-      value: walking_angry_Humster
-      objectReference: {fileID: 0}
-    - target: {fileID: 7921587776036715960, guid: c4deec19a8251e2469f2c2c99d13d737,
-        type: 3}
-      propertyPath: targetobject
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
-  m_SourcePrefab: {fileID: 100100000, guid: c4deec19a8251e2469f2c2c99d13d737, type: 3}
 --- !u!1001 &8440986616881635820
 PrefabInstance:
   m_ObjectHideFlags: 0

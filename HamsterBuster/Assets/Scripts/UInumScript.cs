@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 //書いた人: みくみ なんかよくわかんないけどテストシーンでは動いた
 
 public class UInumScript : MonoBehaviour
@@ -32,12 +33,29 @@ public class UInumScript : MonoBehaviour
         int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
         humsterNum.text = (counthum.ToString() + "匹");
 
-    int countheight = (GameObject.FindGameObjectsWithTag("building").Length * 3);  //1段の高さを3mにしたいので*3してみた
+        int countheight = (GameObject.FindGameObjectsWithTag("building").Length * 3);  //1段の高さを3mにしたいので*3してみた
         CurrentHeight.text = (countheight.ToString() + "m");
 
         //テキストの表示を入れ替える
         Scoretext.text = score.ToString();
 
+        if(score > 500)
+        {
+            ChangeClearScene();
+        }
+
+    }
+
+    IEnumerator clear()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("GameClearScene");
+    }
+
+    void ChangeClearScene()
+    {
+
+            StartCoroutine(clear());
     }
 
 }
