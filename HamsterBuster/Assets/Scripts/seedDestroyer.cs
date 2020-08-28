@@ -6,10 +6,19 @@ using UnityEngine.SocialPlatforms.Impl;
 public class seedDestroyer : MonoBehaviour
 {
     public GameObject scoreGUI;
+    Rigidbody rb;
+    public GameObject Happyhumster;
+    Animator anim;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
+    }
 
     void OnCollisionEnter(Collision other)
     {
-        Debug.Log("接触 + other.gameObject.name");
+        //Debug.Log("接触" + other.gameObject.name);
 
         if (other.gameObject.tag == "humster")
         {
@@ -17,6 +26,7 @@ public class seedDestroyer : MonoBehaviour
             Destroy(gameObject,0.2f);
 
             UInumScript.score += 1;
+            changeAnimator();
 
 
         }
@@ -24,5 +34,19 @@ public class seedDestroyer : MonoBehaviour
         {
             Destroy(gameObject,0.2f);
         }
+    }
+
+    void changeAnimator()
+    {
+        Happyhumster = (GameObject)Resources.Load("Prefabs/Happy_Humster");
+        //↑死亡時のアニメーションプレハブを読み込み
+        Instantiate(
+            Happyhumster, 
+            new Vector3(rb.transform.position.x,rb.transform.position.y),
+            Quaternion.identity
+            );
+
+
+
     }
 }
