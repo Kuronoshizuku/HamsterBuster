@@ -24,10 +24,12 @@ public class HimawarinotaneShooter : MonoBehaviour
                 text.GetComponent<Text>().color = new Color(100, 100, 100);
                 StartCoroutine(timer());
             }
-            Shot();
-            //shotCountの数値を１ずつ減らす。
-            shotCount -= 1;
-
+            else
+            {
+                Shot();
+                //shotCountの数値を１ずつ減らす。
+                shotCount -= 1;
+            }
         }
     }
     IEnumerator timer()

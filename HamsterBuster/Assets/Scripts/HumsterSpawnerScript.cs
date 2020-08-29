@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 //書いた人 みくみです ハムスターを動的生成するスクリプトらしい
 
 public class HumsterSpawnerScript : MonoBehaviour
@@ -15,6 +16,7 @@ public class HumsterSpawnerScript : MonoBehaviour
 	public Transform targetobject;
 	public GameObject hum;
 	int counthum;
+	public static int spawncount = 5;//スポーンする上限
 
 
 	[SerializeField]
@@ -26,7 +28,6 @@ public class HumsterSpawnerScript : MonoBehaviour
 
     private void Start()
     {
-
 		int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
 		if (counthum < 10)
 		{
@@ -68,6 +69,7 @@ public class HumsterSpawnerScript : MonoBehaviour
 				hum.transform.parent = humsterparents.transform;
 
 			}
+		spawncount -= 1;
 
 		Start();
 

@@ -16,9 +16,7 @@ public class UInumScript : MonoBehaviour
     public Text SeedNum;
     public int CurrentHeight_num = 0;
     public int counthum;
-    public int countSeed;
-    public int Shotcount = HimawarinotaneShooter.shotCount;
-
+    public int Shotcount;
 
 
     // Start is called before the first frame update
@@ -34,8 +32,8 @@ public class UInumScript : MonoBehaviour
 
     void Check()
     {
-        int countSeed = (Shotcount - GameObject.FindGameObjectsWithTag("seed").Length);
-        SeedNum.text = (countSeed.ToString() + "粒");
+        int Shotcount = HimawarinotaneShooter.shotCount;
+        SeedNum.text = (Shotcount.ToString() + "粒");
 
         int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
         humsterNum.text = (counthum.ToString() + "匹");

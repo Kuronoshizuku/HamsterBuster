@@ -7,13 +7,10 @@ public class seedDestroyer : MonoBehaviour
 {
     public GameObject scoreGUI;
     Rigidbody rb;
-    public GameObject Happyhumster;
-    Animator anim;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        anim = GetComponent<Animator>();
     }
 
     void OnCollisionEnter(Collision other)
@@ -26,7 +23,6 @@ public class seedDestroyer : MonoBehaviour
             Destroy(gameObject,0.2f);
 
             UInumScript.score += 1;
-            changeAnimator();
         }
         if(other.gameObject.tag == "Ground")
         {
@@ -34,7 +30,7 @@ public class seedDestroyer : MonoBehaviour
         }
     }
 
-    void changeAnimator()
+    /*void changeAnimator()
     {
         Happyhumster = (GameObject)Resources.Load("Prefabs/Happy_Humster");
         //↑死亡時のアニメーションプレハブを読み込み
@@ -44,7 +40,5 @@ public class seedDestroyer : MonoBehaviour
             Quaternion.identity
             );
 
-
-
-    }
+    }*/
 }
