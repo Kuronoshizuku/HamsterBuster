@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 // みくみ
 
 public class HimawarinotaneShooter : MonoBehaviour
@@ -8,18 +10,30 @@ public class HimawarinotaneShooter : MonoBehaviour
     public float shotSpeed;
     public GameObject Shooter;
     //数を制限するぞ～
-    public int shotCount; //inspectorで数を入れよう
+    public static int shotCount = 50; //static にしてみた
+    public Text text;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            //if (shotCount < 1)
+            //    return;
             if (shotCount < 1)
-                return;
+            {
+                text.GetComponent<Text>().color = new Color(100, 100, 100);
+                StartCoroutine(timer());
+            }
             Shot();
             //shotCountの数値を１ずつ減らす。
             shotCount -= 1;
+
         }
+    }
+    IEnumerator timer()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("HamuOverGame");
     }
 
     public void Shot()
