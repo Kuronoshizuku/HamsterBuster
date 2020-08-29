@@ -10,13 +10,14 @@ public class UInumScript : MonoBehaviour
     GameObject[] humster;
 
     public Text Scoretext;
-    public static int score = 0; //スコア変数
+    int Score; //スコア変数
     public Text humsterNum;
     public Text CurrentHeight;
     public Text SeedNum;
     public int CurrentHeight_num = 0;
     public int counthum;
     public int Shotcount;
+    public Text text;
 
 
     // Start is called before the first frame update
@@ -42,25 +43,22 @@ public class UInumScript : MonoBehaviour
         CurrentHeight.text = (countheight.ToString() + "m");
 
         //テキストの表示を入れ替える
-        Scoretext.text = score.ToString();
+        Score = seedDestroyer.score;
+        Scoretext.text = (Score.ToString()+"/30 匹");
 
-        if(score > 500)
+        if(Score > 30)
         {
-            ChangeClearScene();
+            StartCoroutine(timer());
         }
 
     }
 
-    IEnumerator clear()
+    IEnumerator timer()
     {
+        text.GetComponent<Text>().color = new Color(1.0f, 1.0f, 0.0f, 1.0f);
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("GameClearScene");
+        SceneManager.LoadScene("HamuClearGame");
     }
 
-    void ChangeClearScene()
-    {
-
-            StartCoroutine(clear());
-    }
 
 }

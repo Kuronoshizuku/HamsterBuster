@@ -698,7 +698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyController: {fileID: 0}
   animator: {fileID: 0}
-  walking_angry_HumsterPrefab: {fileID: 6367055990517702454}
+  walking_angry_HumsterPrefab: {fileID: 0}
   count: 0
   max: 10
   targetobject: {fileID: 0}

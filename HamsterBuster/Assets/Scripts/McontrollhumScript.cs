@@ -15,7 +15,7 @@ public class McontrollhumScript : MonoBehaviour
 	private Vector3 destination; //　目的地
 	public Transform targetobject;
 	[SerializeField]
-	public float walkSpeed = 1.0f; //　歩くスピード
+	public float walkSpeed; //　歩くスピード
 	private Vector3 velocity; //　速度
 	private Vector3 direction; //　移動方向
 	private bool arrived;//　到着フラグ
@@ -25,8 +25,8 @@ public class McontrollhumScript : MonoBehaviour
 	{
 		enemyController = GetComponent<CharacterController>();
 		animator = GetComponent<Animator>();
-		var randDestination = new Vector3(0,0,Random.Range(-2.0f, 4.0f));
-		destination = startPosition + new Vector3(0,0,randDestination.z);
+		var randDestination = new Vector3(0, 0, Random.Range(-2.0f, 4.0f));
+		destination = startPosition + new Vector3(0, 0, randDestination.z);
 		velocity = Vector3.zero;
 		arrived = false;
 		startPosition = new Vector3(0, 0, 18);
@@ -39,7 +39,7 @@ public class McontrollhumScript : MonoBehaviour
 			if (enemyController.isGrounded)
 			{
 				velocity = Vector3.zero;
-				animator.SetFloat("Speed", 0.1f);
+				animator.SetFloat("Speed", 1.0f);
 				direction = (destination - transform.position).normalized;//目的地方向の計算
 				transform.LookAt(new Vector3(destination.x, transform.position.y, destination.z));//キャラを目的地の方向に向かせる
 				velocity = direction * walkSpeed;
@@ -49,11 +49,11 @@ public class McontrollhumScript : MonoBehaviour
 			enemyController.Move(velocity * Time.deltaTime);
 
 			//　目的地に到着したかどうかの判定
-			if (Vector3.Distance(transform.position, destination) < 0.1f)
+			if (Vector3.Distance(transform.position, destination) < 2.0f)
 			{
 				arrived = true;
-				animator.SetFloat("Speed", 0.0f);
 				transform.LookAt(targetobject);
+				animator.SetFloat("Speed", 0.0f);
 			}
 		}
 	}

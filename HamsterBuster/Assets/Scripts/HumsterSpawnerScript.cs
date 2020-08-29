@@ -11,12 +11,11 @@ public class HumsterSpawnerScript : MonoBehaviour
 	public Animator animator;
 	public GameObject walking_angry_HumsterPrefab;
 	public int max;    //上限
-
 	private Vector3 destination; //　目的地
 	public Transform targetobject;
 	public GameObject hum;
 	int counthum;
-	public static int spawncount = 5;//スポーンする上限
+	public static int spawncount = 30;//スポーンする上限
 
 
 	[SerializeField]
@@ -42,13 +41,10 @@ public class HumsterSpawnerScript : MonoBehaviour
 		Generate();
 
 	}
-
-    // Update is called once per frame
-    /*	void Update()
+	void Update()
         {
-            //InvokeRepeating("Generate", 1, 1); // 1秒ごとに繰り返す
+
         }
-    */
 
     private void Generate()
 	{
@@ -72,7 +68,6 @@ public class HumsterSpawnerScript : MonoBehaviour
 		spawncount -= 1;
 
 		Start();
-
 	}
 
 }

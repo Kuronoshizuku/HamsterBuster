@@ -21,7 +21,7 @@ public class HimawarinotaneShooter : MonoBehaviour
             //    return;
             if (shotCount < 1)
             {
-                text.GetComponent<Text>().color = new Color(100, 100, 100);
+                text.GetComponent<Text>().color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
                 StartCoroutine(timer());
             }
             else

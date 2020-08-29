@@ -7,6 +7,7 @@ public class seedDestroyer : MonoBehaviour
 {
     public GameObject scoreGUI;
     Rigidbody rb;
+    public static int score;
 
     private void Start()
     {
@@ -22,7 +23,7 @@ public class seedDestroyer : MonoBehaviour
             Destroy(other.gameObject,0.2f);
             Destroy(gameObject,0.2f);
 
-            UInumScript.score += 1;
+            score += 1;
         }
         if(other.gameObject.tag == "Ground")
         {
