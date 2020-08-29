@@ -202,7 +202,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5001943313427649566, guid: aed90d1cefd1dd84c9675e8e5a38eb68, type: 3}
+  - {fileID: 2100000, guid: 46448ab3f7967cc41a5f129e06ccebee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -388,11 +388,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2185034357686313220}
-  - component: {fileID: 6568634081864062160}
-  - component: {fileID: 222629096908739625}
+  - component: {fileID: 819846862}
+  - component: {fileID: 1796420296773972598}
   m_Layer: 0
   m_Name: walking_Humster
-  m_TagString: Untagged
+  m_TagString: humster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -404,16 +404,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2885000807847842583}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -1.143, y: 0.581, z: 30.554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4595823954146428987}
   - {fileID: 5370412010451469106}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!95 &6568634081864062160
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &819846862
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -423,7 +423,7 @@ Animator:
   m_GameObject: {fileID: 2885000807847842583}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bf200c6fd9b99094d950a32b32569785, type: 2}
+  m_Controller: {fileID: 9100000, guid: 514bfd32a336a764f8e18381293832d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -432,8 +432,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!136 &222629096908739625
-CapsuleCollider:
+--- !u!143 &1796420296773972598
+CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -442,10 +442,14 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.30475283
-  m_Height: 0.8942925
-  m_Direction: 1
-  m_Center: {x: 0.0017838478, y: 0.4330601, z: -0.07293081}
+  serializedVersion: 2
+  m_Height: 1
+  m_Radius: 0.35
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.5, z: -0.1}
 --- !u!1 &3059830166306590343
 GameObject:
   m_ObjectHideFlags: 0

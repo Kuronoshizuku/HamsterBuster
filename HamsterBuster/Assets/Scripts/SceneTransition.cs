@@ -20,4 +20,8 @@ public class SceneTransition : MonoBehaviour
     {
         SceneManager.LoadScene("MainGameScene");
     }
+    public void PushButtonTitle()
+    {
+        SceneManager.LoadScene("TitleScene");
+    }
 }

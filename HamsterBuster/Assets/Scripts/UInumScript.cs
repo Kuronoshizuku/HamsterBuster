@@ -15,6 +15,8 @@ public class UInumScript : MonoBehaviour
     public Text CurrentHeight;
     public int CurrentHeight_num = 0;
     public int counthum;
+    public int Shotcount;
+    public Text SeedNum;
 
 
     // Start is called before the first frame update
@@ -30,6 +32,9 @@ public class UInumScript : MonoBehaviour
 
     void Check()
     {
+        int countSeed = (Shotcount - GameObject.FindGameObjectsWithTag("Seed").Length);
+        SeedNum.text = (countSeed.ToString() + "匹");
+
         int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
         humsterNum.text = (counthum.ToString() + "匹");
 
