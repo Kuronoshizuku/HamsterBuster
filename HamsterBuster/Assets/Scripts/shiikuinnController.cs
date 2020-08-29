@@ -26,7 +26,7 @@ public class shiikuinnController : MonoBehaviour
 	IEnumerator gameover()
 	{
 		yield return new WaitForSeconds(3);
-		SceneManager.LoadScene("GameOverScene");
+		SceneManager.LoadScene("HamuOverGame");
 	}
 
 	// Update is called once per frame
