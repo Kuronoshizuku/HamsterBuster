@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ScoreScreenTransition : MonoBehaviour
+public class SceneTransition : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -12,8 +12,12 @@ public class ScoreScreenTransition : MonoBehaviour
     }
     //追加した
     //ボタンを押したときの処理
-    public void PushButton()
+    public void PushButtonScore()
     {
         SceneManager.LoadScene("scorescene");
+    }
+    public void PushButtonStart()
+    {
+        SceneManager.LoadScene("MainGameScene");
     }
 }

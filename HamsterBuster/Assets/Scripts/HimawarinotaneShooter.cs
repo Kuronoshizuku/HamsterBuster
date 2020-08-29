@@ -6,12 +6,20 @@ public class HimawarinotaneShooter : MonoBehaviour
 {
     public GameObject seedPrefab;
     public float shotSpeed;
-    public float shotTorque;
     public GameObject Shooter;
+    //数を制限するぞ～
+    public int shotCount; //inspectorで数を入れよう
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) Shot();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (shotCount < 1)
+                return;
+            Shot();
+            //shotCountの数値を１ずつ減らす。
+            shotCount -= 1;
+        }
     }
 
     public void Shot()
@@ -25,6 +33,5 @@ public class HimawarinotaneShooter : MonoBehaviour
 
         Rigidbody seedRigidBody = seed.GetComponent<Rigidbody>();
         seedRigidBody.AddForce(transform.forward * shotSpeed);
-        seedRigidBody.AddTorque(new Vector3(0, shotTorque, 0));
     }
 }

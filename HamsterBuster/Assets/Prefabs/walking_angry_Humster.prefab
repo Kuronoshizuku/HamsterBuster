@@ -778,7 +778,6 @@ MonoBehaviour:
   walking_angry_HumsterPrefab: {fileID: 6367055990517702454}
   count: 0
   max: 10
-  building: {fileID: 0}
   targetobject: {fileID: 0}
   walkSpeed: 3
 --- !u!1 &6577576649560537257

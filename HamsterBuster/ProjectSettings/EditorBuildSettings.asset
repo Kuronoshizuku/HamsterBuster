@@ -8,10 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testScene1.unity
     guid: d9282e242e231f54d9a62b333ce31ad6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameOverScene.unity
     guid: 9120cb2e5b6b0204bbd23d0a9248ca2f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameClearScene.unity
     guid: 0c62281625bf0fb42bd2eeb50e87ada6
+  - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: 56c86cedae4cede41bc9a40460a909f6
+  - enabled: 1
+    path: Assets/Scenes/HamuOverGame.unity
+    guid: bf1533bfac010e0498d9e34b7e37942c
+  - enabled: 1
+    path: Assets/Scenes/HamuClearGame.unity
+    guid: abad356444bb6a64790ca20d6de1d821
+  - enabled: 1
+    path: Assets/Scenes/MainGameScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/scorescene.unity
+    guid: cf3f75f9d645fff4490193b7f55890fb
   m_configObjects: {}
