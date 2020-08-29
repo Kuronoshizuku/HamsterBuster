@@ -27,8 +27,6 @@ public class seedDestroyer : MonoBehaviour
 
             UInumScript.score += 1;
             changeAnimator();
-
-
         }
         if(other.gameObject.tag == "Ground")
         {
@@ -41,8 +39,8 @@ public class seedDestroyer : MonoBehaviour
         Happyhumster = (GameObject)Resources.Load("Prefabs/Happy_Humster");
         //↑死亡時のアニメーションプレハブを読み込み
         Instantiate(
-            Happyhumster, 
-            new Vector3(rb.transform.position.x,rb.transform.position.y),
+            Happyhumster,
+            new Vector3(rb.transform.position.x, rb.transform.position.y),
             Quaternion.identity
             );
 
