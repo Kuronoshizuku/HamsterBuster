@@ -15,7 +15,7 @@ public class McontrollhumScript : MonoBehaviour
 	private Vector3 destination; //　目的地
 	public Transform targetobject;
 	[SerializeField]
-	public float walkSpeed; //　歩くスピード
+	public float walkSpeed = 8.0f; //　歩くスピード
 	private Vector3 velocity; //　速度
 	private Vector3 direction; //　移動方向
 	private bool arrived;//　到着フラグ
@@ -25,7 +25,7 @@ public class McontrollhumScript : MonoBehaviour
 	{
 		enemyController = GetComponent<CharacterController>();
 		animator = GetComponent<Animator>();
-		var randDestination = new Vector3(0, 0, Random.Range(-2.5f, 3.0f));
+		var randDestination = new Vector3(0, 0, Random.Range(-2.5f, 2.0f));
 		destination = startPosition + new Vector3(0, 0, randDestination.z);
 		velocity = Vector3.zero;
 		arrived = false;

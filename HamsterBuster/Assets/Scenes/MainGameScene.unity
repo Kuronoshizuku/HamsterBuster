@@ -188,7 +188,6 @@ MonoBehaviour:
   max: 1
   targetobject: {fileID: 1043827596}
   hum: {fileID: 6367055990517702454, guid: c4deec19a8251e2469f2c2c99d13d737, type: 3}
-  walkSpeed: 1
 --- !u!4 &27870716
 Transform:
   m_ObjectHideFlags: 0
@@ -340,7 +339,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: life_time
-      value: 75
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: audioSource
@@ -717,7 +716,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: life_time
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: audioSource
@@ -912,7 +911,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: life_time
-      value: 45
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: audioSource
@@ -1165,7 +1164,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "0/30\u5339"
+  m_Text: "0/30 \u5339"
 --- !u!222 &621754179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1613,7 +1612,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: life_time
-      value: 60
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: audioSource
@@ -2224,7 +2223,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: life_time
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: audioSource
@@ -3239,7 +3238,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: life_time
-      value: 90
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 1847888647, guid: 6ab7e8d0943ede543b17d469b9450466, type: 3}
       propertyPath: audioSource

@@ -14,7 +14,7 @@ public class HimawarinotaneShooter : MonoBehaviour
     public Text SeedOvertext;
     private void Start()
     {
-        shotCount = 55;
+        shotCount = 50;
         SeedOvertext.GetComponent<Text>().color = new Color(1.0f, 0.0f, 0.0f, 0.0f);
     }
     void Update()

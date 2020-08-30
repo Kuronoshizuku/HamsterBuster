@@ -38,9 +38,10 @@ public class UInumScript : MonoBehaviour
     {
         //int score = seedDestroyer.Score;
 
-        if (score > 30)
+        if (score == 30)
         {
             enabled = false;
+            Scoretext.text = (score.ToString() + "/30 匹");
             Cleartext.color = new Color(1.0f, 1.0f, 0.0f, 1.0f);
             StartCoroutine(timer());
         }

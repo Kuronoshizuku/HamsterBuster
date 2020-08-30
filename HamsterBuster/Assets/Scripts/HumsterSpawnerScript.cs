@@ -11,18 +11,18 @@ public class HumsterSpawnerScript : MonoBehaviour
 	public Animator animator;
 	public GameObject walking_angry_HumsterPrefab;
 	public int max;    //上限
-	private Vector3 destination; //　目的地
+	//private Vector3 destination; //　目的地
 	public Transform targetobject;
 	public GameObject hum;
 	int counthum;
 	public static int spawncount;//スポーンする上限
 
 
-	[SerializeField]
-	public float walkSpeed = 1.0f; //　歩くスピード
-	private Vector3 velocity; //　速度
-	private Vector3 direction; //　移動方向
-	private bool arrived;//　到着フラグ
+	//[SerializeField]
+	//public float walkSpeed = 5.0f; //　歩くスピード
+	//private Vector3 velocity; //　速度
+	//private Vector3 direction; //　移動方向
+	//private bool arrived;//　到着フラグ
 	private Vector3 startPosition; //　スタート位置
 
     private void Start()
@@ -34,7 +34,7 @@ public class HumsterSpawnerScript : MonoBehaviour
 
     IEnumerator timer()
     {
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(2);
 
 		Generate();
 
