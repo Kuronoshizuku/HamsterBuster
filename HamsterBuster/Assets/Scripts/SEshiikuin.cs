@@ -31,7 +31,7 @@ public class SEshiikuin : MonoBehaviour
     {
         if (building.gameObject == Building)
         {
-            Debug.Log("falling");
+            //Debug.Log("falling");
             audioSource.PlayOneShot(fallsound);
         }
     }

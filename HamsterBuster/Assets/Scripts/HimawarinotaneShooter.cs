@@ -10,9 +10,13 @@ public class HimawarinotaneShooter : MonoBehaviour
     public float shotSpeed;
     public GameObject Shooter;
     //数を制限するぞ～
-    public static int shotCount = 50; //static にしてみた
-    public Text text;
-
+    public static int shotCount; //static にしてみた
+    public Text SeedOvertext;
+    private void Start()
+    {
+        shotCount = 55;
+        SeedOvertext.GetComponent<Text>().color = new Color(1.0f, 0.0f, 0.0f, 0.0f);
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -21,7 +25,7 @@ public class HimawarinotaneShooter : MonoBehaviour
             //    return;
             if (shotCount < 1)
             {
-                text.GetComponent<Text>().color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+                SeedOvertext.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
                 StartCoroutine(timer());
             }
             else

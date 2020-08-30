@@ -25,7 +25,7 @@ public class McontrollhumScript : MonoBehaviour
 	{
 		enemyController = GetComponent<CharacterController>();
 		animator = GetComponent<Animator>();
-		var randDestination = new Vector3(0, 0, Random.Range(-2.0f, 4.0f));
+		var randDestination = new Vector3(0, 0, Random.Range(-2.5f, 3.0f));
 		destination = startPosition + new Vector3(0, 0, randDestination.z);
 		velocity = Vector3.zero;
 		arrived = false;

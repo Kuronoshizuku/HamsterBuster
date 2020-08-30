@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 //書いた人 みくみ
 
 public class shiikuinnController : MonoBehaviour
@@ -11,7 +12,7 @@ public class shiikuinnController : MonoBehaviour
 	public Animator nageanim;
 	//ここわからない↓
 	bool nageruflg = false;
-
+	public Text Dietext;
 	private const string space = "nageru";
 
 	// Use this for initialization
@@ -20,7 +21,7 @@ public class shiikuinnController : MonoBehaviour
 		nageanim = this.gameObject.GetComponent<Animator>();
 		/* このスクリプトが張り付けられているオブジェクトのコンポーネントから
 		animationコンポーネントを取得 */
-
+		Dietext.GetComponent<Text>().color = new Color(1.0f, 0.0f, 0.0f, 0.0f);
 	}
 
 	IEnumerator gameover()
@@ -61,7 +62,7 @@ public class shiikuinnController : MonoBehaviour
 		if (ground.gameObject.CompareTag("Ground"))
 		{
 			nageanim.SetTrigger("Die");
-
+			Dietext.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
 			StartCoroutine(gameover());
 		}
 	}

@@ -21,7 +21,7 @@ public class GameOverchange : MonoBehaviour
 
     IEnumerator timer()
     {
-        yield return new WaitForSeconds(12);
+        yield return new WaitForSeconds(10);
 
         SceneManager.LoadScene("TitleScene");
 

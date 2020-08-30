@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.IO.IsolatedStorage;
 //書いた人: みくみ なんかよくわかんないけどテストシーンでは動いた
 
 public class UInumScript : MonoBehaviour
@@ -10,25 +11,43 @@ public class UInumScript : MonoBehaviour
     GameObject[] humster;
 
     public Text Scoretext;
-    int Score; //スコア変数
+    //int score; //スコア変数
     public Text humsterNum;
     public Text CurrentHeight;
     public Text SeedNum;
     public int CurrentHeight_num = 0;
     public int counthum;
     public int Shotcount;
-    public Text text;
+    public Text Cleartext;
+    public AudioSource audioSource;
+    public AudioClip clearSE;
+    //bool isSE = false;
+    public static int score;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        Cleartext.GetComponent<Text>().color = new Color(1.0f, 1.0f, 0.0f, 0.0f);
+        score = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Check();
+        //int score = seedDestroyer.Score;
+
+        if (score > 30)
+        {
+            enabled = false;
+            Cleartext.color = new Color(1.0f, 1.0f, 0.0f, 1.0f);
+            StartCoroutine(timer());
+        }
+        else
+        {
+            Check();
+        }
     }
 
     void Check()
@@ -43,22 +62,18 @@ public class UInumScript : MonoBehaviour
         CurrentHeight.text = (countheight.ToString() + "m");
 
         //テキストの表示を入れ替える
-        Score = seedDestroyer.score;
-        Scoretext.text = (Score.ToString()+"/30 匹");
+        //score = seedDestroyer.Score;
+        Scoretext.text = (score.ToString()+"/30 匹");
 
-        if(Score > 30)
-        {
-            StartCoroutine(timer());
-        }
 
     }
 
     IEnumerator timer()
     {
-        text.GetComponent<Text>().color = new Color(1.0f, 1.0f, 0.0f, 1.0f);
+        audioSource.PlayOneShot(clearSE);
+
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("HamuClearGame");
     }
-
 
 }

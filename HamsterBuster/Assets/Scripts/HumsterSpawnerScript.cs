@@ -15,7 +15,7 @@ public class HumsterSpawnerScript : MonoBehaviour
 	public Transform targetobject;
 	public GameObject hum;
 	int counthum;
-	public static int spawncount = 30;//スポーンする上限
+	public static int spawncount;//スポーンする上限
 
 
 	[SerializeField]
@@ -27,11 +27,9 @@ public class HumsterSpawnerScript : MonoBehaviour
 
     private void Start()
     {
-		int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
-		if (counthum < 10)
-		{
-			StartCoroutine(timer());
-		}
+		spawncount = 30;
+		Spawn();
+		counthum = 0;
 	}
 
     IEnumerator timer()
@@ -41,12 +39,16 @@ public class HumsterSpawnerScript : MonoBehaviour
 		Generate();
 
 	}
-	void Update()
-        {
-
+	void Spawn()
+    {
+		int counthum = GameObject.FindGameObjectsWithTag("humster").Length;
+		if (counthum < 10)
+		{
+		StartCoroutine(timer());
         }
+	}
 
-    private void Generate()
+    void Generate()
 	{
 		startPosition = new Vector3(0, 0, 18);
 		//public staticをつけた変数を取得
@@ -67,7 +69,7 @@ public class HumsterSpawnerScript : MonoBehaviour
 			}
 		spawncount -= 1;
 
-		Start();
+		Spawn();
 	}
 
 }

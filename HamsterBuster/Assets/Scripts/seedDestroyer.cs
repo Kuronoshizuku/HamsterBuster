@@ -7,11 +7,15 @@ public class seedDestroyer : MonoBehaviour
 {
     public GameObject scoreGUI;
     Rigidbody rb;
-    public static int score;
 
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody>();
+    }
+
+    private void Update()
+    {
+
     }
 
     void OnCollisionEnter(Collision other)
@@ -23,13 +27,15 @@ public class seedDestroyer : MonoBehaviour
             Destroy(other.gameObject,0.2f);
             Destroy(gameObject,0.2f);
 
-            score += 1;
+            UInumScript.score += 1;
         }
+
         if(other.gameObject.tag == "Ground")
         {
             Destroy(gameObject,0.2f);
         }
     }
+
 
     /*void changeAnimator()
     {
